@@ -10,7 +10,7 @@ class FruitAdulterationApp(QMainWindow):
         super().__init__()
 
         # Load the trained model
-        self.model_path = r"C:\Users\srivi\OneDrive\Desktop\pythonProject\pythonProject\fruit_adulteration_model_updated.h5"
+        self.model_path = r"path of fruit_adulteration_model_updated.h5"
         self.model = load_model(self.model_path)
 
         # Initialize UI
