@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # Load the trained model
-model_path = r"C:\Users\srivi\OneDrive\Desktop\pythonProject\pythonProject\fruit_adulteration_model_updated.h5"
+model_path = r" path of fruit_adulteration_model_updated.h5"
  # Replace with the actual path
 model = load_model(model_path)
 
